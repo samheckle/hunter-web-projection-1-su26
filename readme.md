@@ -1,9 +1,12 @@
 # MDEP 285: Web Production 1 Syllabus
 
 Sam Heckle, samantha.heckle@hunter.cuny.edu
-Summer 2026  
+
+Summer 2026
+
 MDEP 285 Web Production 1
-Mon / Weds 11:45am - 2:15pm
+
+Mon / Weds 11:40am - 2:00pm
 
 | Important Links                                                         |                                                                                  |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -52,13 +55,13 @@ Projects typically fall under the following grading criteria:
 
 ### Responsibility
 
-Students are responsible for all assignments, *even if they are absent*. Late discussion posts, failure to complete assignments, and lack of preparedness will jeopardize your successful completion of this course. Please regularly check your email for class announcements, GitHub for class materials and notes, and Brightspace for assignment due dates and submissions.
+Students are responsible for all assignments, _even if they are absent_. Late discussion posts, failure to complete assignments, and lack of preparedness will jeopardize your successful completion of this course. Please regularly check your email for class announcements, GitHub for class materials and notes, and Brightspace for assignment due dates and submissions.
 
 #### Attendance and Participation
 
 Students are required to follow along with in-class demos and submit their work at the end of class for participation credit. These will count as your participation for the day. **If you do not have your camera on, or you are not present in class to follow along with the in-class demos, you will not receive full participation**.
 
-**There are no excused and unexcused absences**. If you miss a class, you are welcome to book office hours to make up for your missed participation for the day. These office hours do not need to be the same week, but should be completed in a timely manner. You are not able to book office hours back-to-back to make up for two classes, but they will need to be on separate days. 
+**There are no excused and unexcused absences**. If you miss a class, you are welcome to book office hours to make up for your missed participation for the day. These office hours do not need to be the same week, but should be completed in a timely manner. You are not able to book office hours back-to-back to make up for two classes, but they will need to be on separate days.
 
 ### Late Assignments
 
@@ -70,14 +73,14 @@ Extensions are admitted on an as-needed basis, as long as _the student informs t
 
 ### Use of Generative Artificial Intelligence (AI) Tools:
 
-It is highly ***discouraged*** to use AI to generate or "vibe code" your assignments. You may not rely on code-generating tools to create your entire assignment for you. 
+It is highly **_discouraged_** to use AI to generate or "vibe code" your assignments. You may not rely on code-generating tools to create your entire assignment for you.
 
 With this in mind:
 
 - You MAY use AI in the initial stages of research, idea generation, and drafting.
 - You MAY use AI for language translation.
 - You MAY use AI for code tutoring. I highly encourage you to include in your prompts "Do not give me the answer, but help me work through the problem like a tutor". I highly encourage questions like "I don't understand what `<head>` does, can you explain?".
-- You may NOT copy and paste your entire code into a tool and tell it to solve the problem for you. 
+- You may NOT copy and paste your entire code into a tool and tell it to solve the problem for you.
 - If you use AI at any stage in the creation of your project (including initial stages, idea generation, drafting, language translation, and final form), you must properly cite and disclose this use. This should include details on the specific tool and version used, as well as the nature of your usage (for example, in programming code, images, and/or text/writing). You will include the model, version, and link to your chat logs in your project documentation.
 - If you fail to disclose the use of AI, you will receive a 0 on the assignment.
 
@@ -86,20 +89,20 @@ With this in mind:
 ## Required Materials
 
 1. A computer (chromebooks and tablets will not work)
-	1. *Highly* recommended: second monitor to follow along with class demos. Or, join the zoom on your tablet and follow the demo on your computer.
+   1. _Highly_ recommended: second monitor to follow along with class demos. Or, join the zoom on your tablet and follow the demo on your computer.
 2. Install a text editor
-	- I recommend [SublimeText](https://www.sublimetext.com/download)
-	- [VSCodium](https://vscodium.com/#install) is also a good alternative, but iCloud users beware!
-	- If you are interested in the command line, you can try [Neovim](https://neovim.io/)+[LazyVim](https://www.lazyvim.org/)
-	- I would encourage disabling any autocomplete tools (the text editor autocomplete, linting, or AI tools) as they may be disruptive while following along with class demos.
-3. Create a [Github account](https://github.com/)
-	- Suggested sign up for [Github Student Developer Pack](https://education.github.com/pack)
-	- Set up an SSH key on your computer: [Create an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-	- Add the SSH key to your GitHub account: [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-4. Install Command Line Tools
-	- Windows: Install [GitBash](https://git-scm.com/downloads)
-	- Mac: Terminal is pre-installed, but you need to enable [Xcode Command Line Tools](https://developer.apple.com/xcode/resources/) by opening the Terminal app and copying the command `xcode-select --install`
-	- Linux: See [git docs](https://git-scm.com/install/linux) based on your distribution.
+   - I recommend [SublimeText](https://www.sublimetext.com/download)
+   - [VSCodium](https://vscodium.com/#install) is also a good alternative, but iCloud users beware!
+   - If you are interested in the command line, you can try [Neovim](https://neovim.io/)+[LazyVim](https://www.lazyvim.org/)
+   - I would encourage disabling any autocomplete tools (the text editor autocomplete, linting, or AI tools) as they may be disruptive while following along with class demos.
+3. Install Command Line Tools
+   - Windows: Install [GitBash](https://git-scm.com/downloads)
+   - Mac: Terminal is pre-installed, but you need to enable [Xcode Command Line Tools](https://developer.apple.com/xcode/resources/) by opening the Terminal app and copying the command `xcode-select --install`
+   - Linux: See [git docs](https://git-scm.com/install/linux) based on your distribution.
+4. Create a [Github account](https://github.com/)
+   - Suggested sign up for [Github Student Developer Pack](https://education.github.com/pack)
+   - Set up an SSH key on your computer: [Create an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+   - Add the SSH key to your GitHub account: [Add a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ---
 
@@ -123,66 +126,77 @@ With this in mind:
 |          | 7/15 | Project #3 Proposal Critique                                           |
 | Week 8   | 7/20 | No class, book final 1:1                                               |
 |          | 7/22 | Project #3 Critique<br>**last day for resubmissions and extra credit** |
+
 ### Projects
 
 #### Project 1
 
 Prompt:
-Create a hypertext narrative! This can be a fictionalized story, a passion of yours, or an experience you have had. Think about narrative structures that hypertext allows (branching, looping, repetition). You are allowed to use words and images. 
+Create a hypertext narrative! This can be a fictionalized story, a passion of yours, or an experience you have had. Think about narrative structures that hypertext allows (branching, looping, repetition). You are allowed to use words and images.
 
 Requirements:
-* More than one HTML page that includes at least one of the following tags:
-	* heading `<h1>`
-	* paragraph `<p>`
-	* image `<img>`
-	* link `<a>`
-	* and one html element we did not cover in class (but can be found via [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements))
-* One `style.css` file that holds all your CSS. *There should be no embedded CSS using `<style>`*
-* **No JavaScript**
+
+- More than one HTML page that includes at least one of the following tags:
+  - heading `<h1>`
+  - paragraph `<p>`
+  - image `<img>`
+  - link `<a>`
+  - and one html element we did not cover in class (but can be found via [MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements))
+- One `style.css` file that holds all your CSS. _There should be no embedded CSS using `<style>`_
+- **No JavaScript**
 
 Deliverables:
+
 - Due 6/17
-	- a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project1`)
-	- a link to your live website (eg. `https://samheckle.github.io/web-production-1/project1`)
-	- a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project1/readme.md`)
+  - a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project1`)
+  - a link to your live website (eg. `https://samheckle.github.io/web-production-1/project1`)
+  - a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project1/readme.md`)
 
 Inspiration:
+
 - Larissa Pham, [poem club](https://lrsphm.github.io/poem-club/)
 - Angela Chang, Lai-Tze Fan, Biyi Wen, Ka Lee Wong, [Dim Sum](https://anjchang.com/dimsum/)
 - maya.land, [pens](https://maya.land/pens/)
 - https://niceinter.net/
+
 #### Project 2
 
-Create a responsive web-poster about your neighborhood or a place that you grew up. 
+Create a responsive web-poster about your neighborhood or a place that you grew up.
 
 Requirements:
+
 - Single HTML page
 - Uses `flex` or `grid` CSS layouts
 - Uses Media Queries for styling on multiple devices
 
 Deliverables:
+
 - Due 7/1
-	- a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project2`)
-	- a link to your live website (eg. `https://samheckle.github.io/web-production-1/project2`)
-	- a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project2/readme.md`)
+  - a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project2`)
+  - a link to your live website (eg. `https://samheckle.github.io/web-production-1/project2`)
+  - a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project2/readme.md`)
 
 Inspiration:
+
 - [Music Posters](https://www.are.na/rachel-steele/music-gig-posters-efsmeujirc4)
 - [Swiss Poster Design](https://duckduckgo.com/?q=swiss+poster+design&t=ffab&iax=images&ia=images&atb=v486-1)
 - [Retro SciFi Book Covers](https://www.are.na/joe-hart-rdnukrmf0kc/retro-scifi-covers)
+
 #### Project 3
 
 Deliverables:
+
 - Due 7/15
-	- A link to your proposal (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/proposal.md`)
+  - A link to your proposal (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/proposal.md`)
 - Due 7/22
-	- a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project3`)
-	- a link to your live website (eg. `https://samheckle.github.io/web-production-1/project3`)
-	- a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/readme.md`)
+  - a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project3`)
+  - a link to your live website (eg. `https://samheckle.github.io/web-production-1/project3`)
+  - a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/readme.md`)
 
 ### Readings
 
 #### Reading #1: Craft
+
 - JR Carpenter, [A Handmade Web](https://handmade-web.net/assets/carpenter_handmade-web.pdf)
 - Jeremy Keith, [Resilient Web Design](https://resilientwebdesign.com/) Introduction - Chapter 3
 
