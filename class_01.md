@@ -134,3 +134,126 @@ Then retrieve the path with your OS
 
 </details>
 
+Once everyone has their Terminal / GitBash open, please type `pwd` to ensure you are in the right location.
+
+Now, we are going to "clone" (download) the repository.
+
+In your Github web production 1 repository, get the SSH url. 
+
+<img src="https://github.com/samheckle/images/blob/main/wp1/clone.png?raw=true" style="width:600px;">
+
+After you copy the URL, go back to your Terminal / GitBash and type
+
+```sh
+git clone url-you-copied
+```
+
+Ex. mine looks like `git clone git@github.com:samheckle/web-production-1.git`
+
+### Open the repo in your text editor
+
+Open up whichever text editor you installed (SublimeText, VSCodium, Notepad++, etc). Then open the folder we just cloned.
+
+Your folder should look like this:
+
+```
+└── web-production-1/
+    ├── class-demos/
+    ├── project1/
+    ├── project2/
+    └── project3/
+```
+
+For every class, you will create a class# folder inside the `class-demos/`
+
+Let's make class_01:
+
+```
+└── web-production-1/
+    ├── class-demos/
+    │   └── class_01/
+    ├── project1/
+    ├── project2/
+    └── project3/
+```
+
+## Introduction to HTML
+
+Now that we are all set up, we will start making our first HTML files. 
+
+*H*yper-*T*ext *M*arkup *L*angauage (HTML) isn't a programming language, but a way to taxonimize (organize) words on a page.
+
+To make an HTML page, we can create a new file in VS Code by clicking the +Document button, or right clicking in the file explorer and pressing New File. Let's start by making an `index.html` file inside our `class_01/`.
+#### Comments
+The syntax of a comment in HTML is `<!-- -->`. We write comments to explain things that are happening in the code. It is good practice so that we can understand what is happening if we look at the code in the future. 
+```html
+<!-- this is a comment in HTML -->
+```
+
+#### HTML is Structure
+
+To make an HTML page, we can create a new file in our text editor by clicking the +Document button, or right clicking in the file explorer and pressing New File.
+
+We want to name the new file `whatever_i_want_but_no_spaces.html`. The `.html` is important for the naming (it also cannot have spaces or weird characters, I stick to `_` or `-`). 
+
+HTML follows a particular structure. The first tag we always use in an HTML file is `<html>`. All of our code will be written between the opening and closing tags. Every HTML tag can also be called an `element`, or the thing that exists on the page. 
+
+```html
+<!-- opening -->
+<html>
+
+<!-- closing -->
+</html>
+```
+
+Then we get into parent and child tags. An element that contains elements inside of it is called the `parent element`, whereas the elements inside are called `child elements`. We can have infinite nesting inside of elements. 
+
+The typical children of the `<html>` element are `<head>` and `<body>` elements. 
+
+![image](https://kagi.com/proxy/Document.jpg?c=h8JCMe5cYLVbQGUI8h4mf7rgrW8NI2w--6vBMX9vZpfXO6UiFxDqWEFyflaL0FTSB7ZUc1FYoXDOrrqAD_5mVwH157My1rt4Gr5w2EVxa08LSWT2VXbF_NqJ-W_uQUE-)
+
+The `<head>` tag contains content and meta information about the webpage the browser might need to know, like language, character set (ie alphabet), and the `<title>` tag, which allows us to set what the name of the tab is in our browser. 
+
+It might look something like
+```html
+<html>
+    <head>
+        <title>my homepage</title>
+    </head>
+</html>
+```
+
+We can view any HTML pages by right clicking the file in the file explorer -> pressing Reveal in Finder, and dragging the file into our browser. 
+
+<img src="https://github.com/samheckle/images/blob/main/finder.png?raw=true" style="width:600px;">
+
+
+<img src="https://github.com/samheckle/images/blob/main/finder_drag.gif?raw=true" style="width:600px;">
+
+
+Also important to note here, we can see the `path` in our address bar. Mine shows `file:///Users/samheckle/dev/web-foundations/week1/index.html`. 
+
+The path is really important because we need to be able to know exactly where files are on our computer in order to reference them within our own code, specifically if we wanted to link two pages or add images together. Before we do that, we need to look at other html content elements. 
+
+The content of a webpage exists inside the `<body>` element. The `<body>` can hold plaintext, but usually it will contain some type of other elements, such as:
+
+* `<p>` - paragraphs
+* `<em>` - emphasis, or italics
+* `<strong>` - bold
+* `<img>` - images, uses `src` attribute which can contain a local file path or url to an image, no closing tag
+* `<a>` - links, uses `href` attribute which can use local path or url to an external site.
+##### Paths
+
+As stated earlier, a path is the location on which our files exist on our computer. We can access the files by specifying the path in different attributes (like `src` or `href`). We need to know where we are in the file structure and where we need to go in order to determine the path from one file to another. 
+
+For example, if we want to include an image in our `index.html`, we need to know that our path to `index.html` is 
+```
+file:///Users/samheckle/dev/web-foundations/week1/index.html
+```
+Our images exist in a folder called `images/`, and if we drag our image to the browser, we can also see it's path
+```
+file:///Users/samheckle/dev/web-foundations/week1/images/guywithguitar.jpg
+```
+We need to note the difference between these two paths -- we know that everything up to the end of week1 is the same, so we can ignore that part of the path. Since we need to get into the images folder, we need to specify the folder `images/` + our file name `guywithguitar.jpg`. So the path from `index.html` to our image is `images/guywithguitar.jpg`. 
+
+So, to determine paths we need to determine the difference between to file locations. If we need to go up a folder, we can use `../`. Say we put our images not in `week1/` but in `web-foundations/images/`, in order to retrieve images we need to use `../images/guywithguitar.jpg`. 
