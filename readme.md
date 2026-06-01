@@ -59,7 +59,7 @@ Students are responsible for all assignments, _even if they are absent_. Late di
 
 #### Attendance and Participation
 
-Students are required to follow along with in-class demos and submit their work at the end of class for participation credit. These will count as your participation for the day. **If you do not have your camera on, or you are not present in class to follow along with the in-class demos, you will not receive full participation**. If you miss more than 30% of the allotted class time, you will only receive half-credit and it cannot be made up in office hours.
+Students are required to follow along with in-class demos and submit their work at the end of class for participation credit. These will count as your participation for the day. **If you do not have your camera on (with your face well lit and in frame), or you are not present in class to follow along with the in-class demos, you will not receive full participation**. If you miss more than 30% of the allotted class time, you will only receive half-credit and it cannot be made up in office hours.
 
 **There are no excused and unexcused absences**. If you miss a class, you are welcome to book office hours to make up for your missed participation for the day. These office hours do not need to be the same week, but should be completed in a timely manner. You are not able to book office hours back-to-back to make up for two classes, but they will need to be on separate days.
 
