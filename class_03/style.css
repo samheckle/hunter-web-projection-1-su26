@@ -1,0 +1,88 @@
+/* this is a comment in CSS */
+/* this is how to take notes in code */
+
+/*
+
+CSS follows this structure:
+
+selector {
+	property: value;	
+}
+
+*/
+
+body {
+	background-color: cyan;
+	/* any changes that will be universal should go in body */
+	font-family: monospace;
+}
+
+p {
+	background-color: hotpink;
+	font-size: 24pt;
+	/* color is text color */
+	color: white;
+}
+
+.notification {
+	border: 6px solid lightgrey;
+	margin-bottom: 20px;
+}
+
+/* being more specific about which div */
+/* because CSS prioritizes higher specificity */
+/* this will override the previous styling */
+/* this will apply to any element that looks like */
+/* class="notification warning" */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity */
+.notification.warning {
+	border-color: orange;
+	background-color: orange;
+}
+
+#blue{
+	background-color: navy;
+	color: aliceblue;
+	/* adjust the width so background only covers text */
+	width: fit-content;
+	/* demo margin shorthands */
+	/*margin: 50px;*/
+	/*margin-top: 50px;*/
+	margin: 50px 0px 100px 75px;
+}
+
+.highlight{
+	background-color: yellow;
+}
+
+
+/* ids are the most specific item since they can only be 
+applied once per page */
+#first{
+	background-color: greenyellow;
+}
+
+.blazeorange{
+	background-color: #fe5f00;
+}
+
+.olive{
+	background-color: #988f2a;
+}
+
+/* add the same rules to multiple selectors by using a , */
+/* these divs had no content so they won't show up without */
+/* a specified width and height */
+.blazeorange, .olive{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
