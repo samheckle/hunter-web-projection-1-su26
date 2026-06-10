@@ -47,6 +47,8 @@ HTML is rendered in the browser using the flow layout, which is the horizontal a
 | `<p>`, `<div>`                                                                                                                                                    | `<em>`, `<strong>`, `<a>`, `<span>`                                                                                                       |
 <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout/mdn-horizontal.png" style="width: 600px">
 > via "Block and Inline Layout" [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout)
+
+
 ## Introduction to the Box Model
 
 ### Quick Reference
@@ -56,6 +58,8 @@ HTML is rendered in the browser using the flow layout, which is the horizontal a
 | Outer Display Type | How a box is laid out in relation to other boxes around it                       |                                   |
 | Inner Display Type | How elements are laid out inside a box                                           |                                   |
 | Display            | A property in CSS that determines what display type it has                       | `block`, `inline-block`, `inline` |
+
+
 ### Reference Links to Review
 - [MDN Box Model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model)
 - [MDN Block and Inline Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout)
