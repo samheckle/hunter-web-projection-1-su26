@@ -266,7 +266,7 @@ This likely won't happen but if you end up using a lot of sub-folders in project
 
 At the end of every class, we will upload our code to GitHub. This is 5 steps you will do at the end of every class. You will be running commands in your CLI interface. You should be typing these out to build muscle memory! 
 
-1. Open the Terminal / GitBash application.
+1. Open the Terminal / GitBash application by right clicking your `web-production-1` folder on your computer and selecting "Open in Terminal" / "Open in GitBash (this might be nested under the more options menu)"
 2. `git status` → check all the files that were changed from the last version
 3. `git add .` → adds all the changed files. if you have a file you do not want added, you need to manually type the files you do want instead of the `.`
 4. `git commit -m "you must change this message"` → names the version we are about to upload. Everything inside the `""` will be what the version is named. This should be a useful message, something along the lines of `"class 2 upload"`. It will be different every time you upload!
