@@ -71,16 +71,23 @@ Now that we are all set up, we will start making our first HTML files.
 ### Make a new HTML file
 #### Option 1: Click the `+` in the top right corner of SublimeText
 <img src="https://github.com/samheckle/images/blob/main/wp1/new_file.png?raw=true" style="width:600px;">
+
 #### Option 2: Right Click the folder you want → New File
+
 <img src="https://github.com/samheckle/images/blob/main/wp1/new_file_2.png?raw=true" style="width:600px;">
+
 #### Option 3: Hotkey
+
 1. Mac: `⌘ + N`
 2. PC: `Ctrl + N`
 
 --- 
 ### Saving your new file
+
 #### Option 1: in the top menu  → File → Save
+
 <img src="https://github.com/samheckle/images/blob/main/wp1/filesave.png?raw=true" style="width:600px;">
+
 #### Option 2: Hotkey
 	1. Mac: `⌘ + S`
 	2. PC: `Ctrl + S`
