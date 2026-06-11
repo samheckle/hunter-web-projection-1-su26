@@ -89,8 +89,9 @@ Now that we are all set up, we will start making our first HTML files.
 <img src="https://github.com/samheckle/images/blob/main/wp1/filesave.png?raw=true" style="width:600px;">
 
 #### Option 2: Hotkey
-	1. Mac: `⌘ + S`
-	2. PC: `Ctrl + S`
+
+1. Mac: `⌘ + S`
+2. PC: `Ctrl + S`
 
 ---
 
