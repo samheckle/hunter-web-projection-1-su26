@@ -8,7 +8,7 @@
 
 1. Attendance
 2. Project #1 due tomorrow at midnight
-3. Added [glossary](../../glossary.md)
+3. Added [glossary](https://github.com/samheckle/hunter-web-projection-1-su26/blob/main/glossary.md)
 4. Reading #2 due next week
 
 ## How to Write Documentation
@@ -102,7 +102,7 @@ Or images, which are just links with an `!`:
 
 I would make a `documentation-images` folder in your project if you plan on including a lot of images!
 
-It's pretty simple! If you want a template for documentation, you can find it [here](../../project-x-documentation-template).
+It's pretty simple! If you want a template for documentation, you can find it [here](https://github.com/samheckle/hunter-web-projection-1-su26/blob/main/project-x-documentation-template.md).
 ## CSS Positioning
 
 ### Quick Reference
