@@ -1,0 +1,78 @@
+/*
+	7d84b2
+	8e9dcc
+	d9dbf1
+	f9f9ed	
+	dbf4a7
+*/
+
+.container{
+	width: 200px;
+	height: 200px;
+	background-color: #8e9dcc;
+	margin: 20px;
+	display: inline-block;
+}
+
+body{
+	/* solutions for removing scroll on 
+	an entire webpage */
+	/*overflow-y: hidden;*/
+	font-family: monospace;
+}
+
+/* syntax to grab all the divs that are children 
+of .container class on div */
+div.container > div, .sticky-child{
+	width: 75px;
+	height: 75px;
+	background-color: #d9dbf1;
+}
+
+.static-child{
+	/* this doesn't do anything 
+	it is the default */
+	position: static;
+}
+
+/* adding a , makes rule apply to both classes */
+/* shorthand for writing the rule twice */
+.relative-child, .relative-parent{
+	position: relative;
+}
+
+/* you can write the rule twice OR use , */
+/*.relative-parent{
+	position: relative;
+}*/
+
+.absolute-child{
+	position: absolute;
+	/* specifying the exact position
+	using units from top and units from left
+	 */
+	top: 100px;
+	left: 0;
+}
+
+.down-under{
+	position: absolute;
+	top: 2000px;
+}
+
+.fixed-child{
+	position: fixed;
+}
+
+.sticky-child{
+	position: sticky;
+	top: 500px;
+	z-index: -1001;
+}
+
+.big-container > img{
+	z-index: 999;
+}
+
+
+
