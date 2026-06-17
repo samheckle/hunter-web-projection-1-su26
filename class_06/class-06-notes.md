@@ -10,6 +10,7 @@
 1. Attendance
 2. Reading #2 due next week
 3. Project Rubric
+	- **Important note**: On project critique days, we will not have an in-class assignment. But, 15% of your project grade will be participation during critique. 
 
 ## Project Questions?
 
