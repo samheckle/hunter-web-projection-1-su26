@@ -145,7 +145,7 @@ This will apply to your documentation and allowing yourself time to ideate on a 
 - [Artists Featured in Form and Code](http://formandcode.com/links)
 - [linci.co Design Bookmarks](https://bookmarks.linci.co/)
 - Tumblr, Instagram, Are.na, Social Media etc...
-- [Our class collaborative doc](https://cryptpad.fr/doc/#/2/doc/edit/jZQXlZyNpiJW2qlph3dUwVqp/)
+- [Our class collaborative doc](https://cryptpad.fr/doc/#/2/doc/view/5U8Jg0hyifHZj449ZDzzBqSiB1tGxICm4waKBsFQqnw/)
 
 ##### Inspiration
 
