@@ -45,6 +45,16 @@ Strangely enough, black screens use up less power than white screens, so *why is
 - Is a computer actually intuitive? Think about how you learned how to type, use a mouse, understand what different icons mean. When did this happen in your life? Who taught you that?
 	- Look through some icons: https://feathericons.com/ and see if your group and figure out where different icons came from. For example, look up the history of bluetooth, save, and send.
 
+### Links mentioned during discussion
+
+- typewriters with round keys: https://upload.wikimedia.org/wikipedia/commons/b/b7/MEK_II-371.jpg
+- new york grid created with Commissioners Plan of 1811: https://en.wikipedia.org/wiki/Commissioners%27_Plan_of_1811
+- history of youtube design (introducing dark mode only in 2017): https://www.versionmuseum.com/history-of/youtube-website
+- Lina Khan, FTC commissioner suing Google for monopoly & antitrust violations: https://en.wikipedia.org/wiki/Lina_Khan
+- Cyberdecks (homemade computers): https://www.reddit.com/r/cyberDeck/top/?screen_view_count=1&t=year
+- Rekindle (alternative browser interface): https://rekindle.ink/
+
+
 ## Responsive Design: Media Queries and Flexbox
 
 ### Quick Reference
