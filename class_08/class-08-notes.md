@@ -23,7 +23,7 @@
 
 Accompanying art exhibition, [*Black Gooey Universe*](https://americanartist.us/works/black-gooey-universe) in 2018.
 
-<img src="https://lh3.googleusercontent.com/-qfr_-c686VU/WezC7wIg_YI/AAAAAAABFgc/zQFUdT06QDojnk1nGOKn6294x99ElrlNQCHMYBhgL/w9999/alto-running-smalltalk.jpg">
+<img src="https://lh3.googleusercontent.com/-qfr_-c686VU/WezC7wIg_YI/AAAAAAABFgc/zQFUdT06QDojnk1nGOKn6294x99ElrlNQCHMYBhgL/w9999/alto-running-smalltalk.jpg" style="width:600px">
 
 > Xerox Alto, 1970s and first introduction of whiteness to computer interface
 
