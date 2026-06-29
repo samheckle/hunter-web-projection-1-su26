@@ -1,0 +1,60 @@
+/* standard site layouts */
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: monospace;
+	font-size: 1rem;
+
+	background: #08bdbd;
+	margin: 0;
+	box-sizing: border-box;
+
+	/* every child element will be flex column item */
+	display: flex;
+	flex-direction: column;
+}
+
+nav{
+	background: #abff4f;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* is both a flex container AND a flex child of the body */
+.content{
+	display: flex;
+	flex-direction: row;
+
+	/*max-width: 1200px;*/
+	/*width: min-content;*/
+	flex-grow: 3;
+}
+
+aside{
+	flex-grow: 1;
+	background: #29BF12;
+	min-width: 200px;
+}
+
+@media screen and (width < 600px){
+	aside{
+		display: none;
+	}
+}
+
+main{
+	flex-grow: 3;
+	background: #FF9914;
+}
+
+footer{
+	background: #F21B3F;
+}
+
+
+
