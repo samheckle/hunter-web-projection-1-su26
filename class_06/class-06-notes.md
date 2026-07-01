@@ -69,7 +69,6 @@ The way presentations will work:
 
 Order: 
 - Kayla
-- Marcela
 - Michael
 - Dayanara
 - Wilmo

@@ -184,14 +184,31 @@ Inspiration:
 
 #### Project 3
 
+Using HTML, CSS and Javascript, create a clock that lives in the web browser. It should only have one HTML page, but other than that there is no specific requirement on its exact format or inner workings. All it should do is mark the passing of time in a way that is meaningful to you.
+
+Some aspects to consider when conceptualizing this project are the time scale of your clock (e.g. time of day vs geological era,) the “materials” you are using to make it come to life (numbers / words / emojis / images / pure color, and so on,) whether your clock talks about “absolute time” or has a point of reference, and the overall design of the piece (does it reference a real clock? or is it more abstract? how do typography, color, spacing, and the relationships between elements contribute to your overall idea?). Don’t feel constrained by these categories, they are just meant to help you get started.
+
+Requirements:
+- Has at least 2 HTML pages: `clock.html` and `about.html`
+- Has 1 CSS file
+- Has 1 JavaScript file 
+- Uses `setInterval()` and JavaScript Date Object or p5.js `millis()`
+
 Deliverables:
 
 - Due 7/15
-  - A link to your proposal (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/proposal.md`)
+  - A link to your proposal (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/proposal.md`) that includes a short description of what you will make, at least 2 sketches (a wireframe and a sitemap), and a few references or relevant projects that are not the class examples.
 - Due 7/22
   - a link to your code (eg. `https://github.com/samheckle/web-production-1-starter/tree/main/projects/project3`)
   - a link to your live website (eg. `https://samheckle.github.io/web-production-1/project3`)
   - a link to your documentation (eg. `https://github.com/samheckle/web-production-1-starter/blob/main/project3/readme.md`)
+
+Inspiration:
+- Fruitful School, [Emoji Clock](https://web.archive.org/web/20201126185008/http://www.fruitful.school/blog/2019-12-23.html)
+- Jacopo Colo, [Hex Clock](https://www.jacopocolo.com/hexclock/)
+- Christian Marclay, [The Clock](https://www.youtube.com/watch?v=BoDMEixJYpE)
+- Maya Man, [_A Realistic Day In My Life Living In New York City_](https://whitney.org/exhibitions/maya-man)
+- Eva Decker, [Hypertext.tv](https://hypertext.tv/)
 
 ### Readings
 
