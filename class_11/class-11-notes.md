@@ -38,6 +38,8 @@ JavaScript is a scripting language that allows you to incorporate interactions o
 | Structure | Style | Interaction |
 | --------- | ----- | ----------- |
 | HTML      | CSS   | JavaScript  |
+
+
 It allows us to sense input from users and make dynamic changes on our webpage. Some of these can be done with CSS (like `:hover`), but more complex inputs require JavaScript.
 ## What is the DOM?
 
