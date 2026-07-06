@@ -1,14 +1,35 @@
-| Word                 | Definition                                                                                                                                                          | Example                           |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Algorithm            | A series of steps that execute to solve a problem                                                                                                                   |                                   |
-| Javascript           | A programming language that is used to make webpages interactive                                                                                                    | `script.js`                       |
-| Function / Method    | A single instruction or command. May or may not have **parameters**. You can use function and method interchangably. Functions usually use the syntax `()` and `{}` | `function hi(){}`, `hi()`         |
-| Parameter / Argument | A value that is passed in to the parentheses of a function. You can use the word parameter and argument interchangeably.                                            | `document.getElementById('main')` |
+## Agenda
+
+1. Housekeeping
+2. Introduction to JavaScript and the DOM
+
+## Housekeeping
+
+1. Attendance
+2. Reading #3 due tomorrow night
+3. Reminder! Rolling Extra Credit
+4. Project #3 Proposal due next week
+
+## Introduction to JavaScript and the DOM
+
+## Quick Reference
+
+| Word                 | Definition                                                                                                                                                            | Example                                                         |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Algorithm            | A series of steps that execute to solve a problem                                                                                                                     |                                                                 |
+| Javascript           | A programming language that is used to make webpages interactive                                                                                                      | `script.js`                                                     |
+| Function / Method    | A single instruction or command. May or may not have **parameters**. You can use function and method interchangably. Functions usually use the syntax `()` and `{}`   | `function hi(){}`, `hi()`                                       |
+| Parameter / Argument | A value that is passed in to the parentheses of a function. You can use the word parameter and argument interchangeably.                                              | `document.getElementById('main')`                               |
+| Variable             | A piece of data stored in a value. JavaScript doesn't keep track of types in the variable declaration, but does know the type (`Number`, `String`, or `Boolean`)      | `let x = 10`<br>`let word = 'rainy day'`<br>`let sunny = false` |
+| DOM                  | The Document Object Model is how JavaScript "sees" the HTML structure of a webpage to manipulate it. It is not a programming language, but JavaScript "uses" the DOM. | Using `document` in a `.js` file.                               |
 
 ### Reference Links to Review
 - MDN [definition of JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - MDN guide: [Learn JavaScript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting)
-- 
+- Learning JavaScript video tutorials:
+	- Basic JavaScript syntax: [Variables](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/2-variables/2-define-variables) | [Incrementing](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/2-variables/3-incrementation) | [Conditionals](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/1-conditionals) | [If, Else If, AND, OR](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/3-else-if-and-or)
+	- Mid-Level JavaScript: [Functions](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/1-basics) | [Functions and Parameters](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/2-arguments) | [Loops](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/4-loops/1-while-for) | [Arrays](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/7-arrays/1-arrays) | [Loops + Arrays](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/7-arrays/2-arrays-loops)
+	- Advanced: [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects)
 
 ## What is JavaScript?
 
@@ -43,7 +64,7 @@ Before working with the DOM, we need to first be able to import a Javascript fil
 ```html
 <html>
 	<head>
-		<script src="script.js"></script>
+		<script src="main.js"></script>
 	</head>
 	
 	<body>
@@ -53,6 +74,8 @@ Before working with the DOM, we need to first be able to import a Javascript fil
 ```
 
 ## Writing JavaScript
+
+JavaScript is the last language we will be learning in this class. For us, it allows us to add interactions using another file type. Each `.js` file (and typically any programming file) is known as an "algorithm" or a series of steps executed to solve a problem. JavaScript is read like HTML in the browser - it starts at the top and reads each line of code in order. 
 
 #### Comments
 
@@ -65,12 +88,16 @@ A comment is a way in javascript to write notes and organize your code.
 ```
 #### Function
 
+A function is a single action to be executed by the code. 
+
 ```js
 // the syntax of a function is the name followed by parenthesis
 functionName();
 ```
 
 #### Parameter
+
+A parameter is a value you are putting inside the parenthesis. 
 
 ```js
 // parameters go inside the parenthesis
@@ -79,30 +106,64 @@ functionName(parameterValue);
 
 ### Adding our first function
 
-And, we can write a simple piece of Javascript code which just alerts us of the fact that it was imported in the page.
+And, we can write a simple piece of Javascript code which just alerts us of the fact that it was imported in the page. [See the MDN reference for `alert()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
 
 ```jsx
+// name of the function is alert
+// parameter is in '' which is the text to be displayed. 
 alert('Hello this is Javascript speaking!')
 console.log('This is a message in the console')
 ```
-## Waiting for the DOM to load
+### Waiting for the DOM to load
 
 Interacting with the DOM can only happen *once the HTML content of the page has loaded*. Since our JS script might load before the actual HTML of the page, we need a way of *listening* for when the HTML page has completed loading everything. Fortunately, there is an easy solution for that:
 
 ``` js
+// window = the browser window
+// addEventListener() = the function, which has 2 parameters separated by a ,
+// "load" = first parameter (which type of event we are waiting for)
+// ()=>{} = second parameter, a callback function
+window.addEventListener("load", () => {
+	console.log("page is fully loaded");
+})
+```
+#### `window.onload`
+
+There is also a shorthand for the event listener:
+
+```js
+// this is a shorthand for the event listener
 window.onload = () => {
   console.log("page is fully loaded");
 };
 ```
-### `window.onload`
 
 This is an event that is specific to the webpage loading. We can view the details of the load event [from the MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event). In this class, we will *always* use the load event, instead of `DOMContentLoaded`.
 
 The reason for this is that `window.onload` is the *last* event to trigger when a page loads. Take a look at this [playground](https://developer.mozilla.org/en-US/play?uuid=624b9c36-c62a-41c6-9624-375d0ae85293&state=jVPBctowEP2VHaUHmIJh0kvHMbm0vdHpTNOjDxhpASWylEpyiMvw711JNnEG2uHEavfte2%2FXy4HtfK1YzgohX4CryrlFybjR3hrlSnZfaoBi3XhvNEhBNYvKVKJk4NtnpHeqEfJnLBSzlKDGYkac9EvRkBxfUPupMtueXVVrVLAxti8uY%2B1bCIFweTGLkIT2%2BOori1V4AFAgjFZtep1JTMMkFNMkHd7sA%2BBz%2F%2BY0Jb0%2FzftEnHHgopj1goOJ2IRx52hrayNaOIROId2zqtoctlaKu5AJwdRjTWmP08DgcjjtFuICCHgMC8r6jSey2Bo6cugKd%2B80NgpfY6ZScqunklSIm5NptDH%2F2DgvN20%2F%2FqCW5E4LOtOj3DnqtMYEt%2BjkH8xBG409OH6hSam7U3m%2Fk7Uy%2FKlH3qQLSpAdyu2O%2FN1arBOAdvsYVkuSLn5%2BWIAwvKlJP%2FvdoG0fUCH3xo5KdsFiycZElLo7pf8Q3PTnHJpKnV5ZJUS8vqV0xIkByJXkTyWbwGgMi%2FtknmSzcB1fkjTp0BWx%2BAEc%2Bl%2ByRtP40aABYC%2B1MPuM9lF5aXSWBEfeNjiOjccJ3M7nIT4mS13HBUvJODmKS%2Fi3rY%2FBVwQTH3tjPi3lAnf4X7XO0%2BXyXaW3eKXO6q0vhw%2BHk0JMP4T0kUysrvPw9cf3jnpJ5vHaWVdnfQNFui6%2FwxrpwFS4PHb8Cw%3D%3D&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FAPI%2FWindow%2Fload_event%2F) to see the differences.
 
-## Different types of selectors; changing the content of an element (`html()`)
+### Selecting an Element on the Page using the DOM
 
-Let’s look at three different types of selectors. We’ll start with the following HTML page:
+There are a few ways to select which HTML elements to modify. 
+
+As a reminder:
+- `class`: can be used many times per page
+- `id`: can only be used ONCE per page
+
+This is useful for us because if we want to manipulate something with JavaScript we need to select the specific element we want to modify.
+
+There are four JavaScript selectors that you will see and are used. They use the `document` from the DOM to reference where these functions are coming from, then the name of the function with a string (a word wrapped in `''` or `""`) parameter.
+
+- `document.getElementById('')` → grabs a **single** element using the `id` attribute
+- `document.querySelector('')`→ returns a **single** element that first matches the CSS selector string.
+- `document.getElementsByClassName('')`→ grabs **many** elements using the `class`. This also returns an array instead of an individual item. *We typically do not do this*.
+- `document.querySelectorAll('')` → returns **many** elements that match the CSS selector string.
+
+Right now, the easiest are grabbing individual elements to manipulate, so we will focus on `document.getElementById('')` and `document.querySelector('')`
+
+### Different types of selectors; changing the content of an element
+
+Starting with the following HTML page:
 
 ```jsx
 <html>
@@ -124,11 +185,11 @@ We have four paragraphs. One of them has no attributes, one of them has an `id`,
 ```jsx
 window.onload = () => {
   console.log("page is fully loaded");
-  document.getElementById("YourElementId").innerHTML = "updated content with javascript";
+  document.getElementById("importantParagraph").textContent = "updated content with javascript";
 };
 ```
 
-## Changing the styling of an element (`css()` and `addClass()`)
+### Changing the styling of an element
 
 We can use JavaScript to directly specify CSS properties for the elements we have selected. In the example below, we make the paragraphs which have the `blue-paragraph` class actually have blue text (on a pink background.)
 
@@ -151,16 +212,16 @@ We can use JavaScript to directly specify CSS properties for the elements we hav
 
 window.onload = () => {
   console.log("page is fully loaded");
-  document.getElementById("importantParagraph").innerHTML = "updated content with javascript";
+  document.getElementById("importantParagraph").textContent = "updated content with javascript";
 
-  document.getElementById("YourElementId").style.color = "blue";
+  document.getElementById("importantParagraph").style.color = "blue";
 
   // you can update the style attribute more than once using different properties
   document.getElementById("importantParagraph").style.backgroundColor = "green";
 };
 ```
 
-Many of the attributes are the same between updating with JavaScript and writing with CSS, with different cases instead of hyphens. You can see a list of the attributes you can change [here](https://www.w3schools.com/jsref/dom_obj_style.asp)
+Many of the attributes are the same between updating with JavaScript and writing with CSS, with different cases instead of hyphens. You can see a list of the attributes you can change [here](https://www.w3schools.com/jsref/dom_obj_style.asp
 
 We can also use JavaScript to assign a class to an element that doesn’t already have it, or conversely, to remove a class from an element which does have it. For the former, we could write the code below in order to programatically give the `importantParagraph` a `blue-paragraph` class as well. The `addClass` function 
 
@@ -173,16 +234,30 @@ window.onload = () => {
 };
 ```
 
-## Creating and removing HTML elements (`appendTo`, `remove`)
+### Using Variables
+
+Variables are named data that help us shorten our code. We create variables by using the keyword `let` followed by the variable name eg. `let x = 10`. If we are making a lot of changes to the same item in the document, we can create a variable to not write `document.getElementById('importantParagraph)` over and over again.
+
+```js
+window.onload = () => {
+  console.log("page is fully loaded");
+  
+  let important = document.getElementById('importantParagraph');
+  
+  important.innerHTML = "updated content with javascript";
+  important.classList.add('blue-paragraph');
+};
+```
+### Creating and removing HTML elements
 
 We can also use JavaScript in order to create entirely new elements, or remove existing elements.
 
-I’ll start with removing, since it’s easier. Once we figure out our selector, we simply call `.remove()` on the value returned by the selector in order to entirely remove the element from the DOM. For removing all paragraphs with the `blue-paragraph` class in the example above, we would simply call
+I’ll start with removing, since it’s easier. Once we figure out our selector, we simply call `.remove()` on the value returned by the selector in order to entirely remove the element from the DOM. 
 
 ```jsx
 window.onload = () => {
   console.log("page is fully loaded");
-document.getElementById("importantParagraph").remove();
+  document.getElementById("importantParagraph").remove();
 }
 ```
 
