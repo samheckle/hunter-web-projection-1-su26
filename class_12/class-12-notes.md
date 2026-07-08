@@ -17,6 +17,13 @@ In breakout rooms, discuss the following questions and take notes on your conver
 1. Where does friction factor in your learning or artistic practice? What is the boundary of something being "too easy" for you? Do you think friction/glitches/imperfections/errors are valuable right now, and why?
 2. Where does most of your attention go when you are not working? Why does your attention go there? Feel free to share your screentime.
 3. Have you discovered a cool website throughout this class or during these readings? Add it to the [communal are.na](https://www.are.na/sam-heckle/_web-jghsnohy78q), (are.na account required) or share a link and I can add it. 
+
+## Review Exercise
+
+1. Download this [starter folder](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsamheckle%2Fhunter-web-projection-1-su26%2Ftree%2Fmain%2Fclass_12%2Fclass-12-starter)
+2. Add the folder to your class-demos folder
+3. Open that folder in SublimeText
+4. Complete the exercise starting with `index.html`, then `styles.css`, then `script.js` by reading the comments and completing the code or answering the questions.
 ## Intro to Events
 
 ### Quick Reference
