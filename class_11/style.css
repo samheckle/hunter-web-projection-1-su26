@@ -1,0 +1,15 @@
+/* style ALL the p tags */
+p{
+	font-family: monospace;
+}
+
+/* class selector uses . */
+.red-paragraph {
+	background: #bf1a2f;
+	color: #f7d002;
+}
+
+/* id selector uses # */
+#big-paragraph{
+	font-size: 40px;
+}
