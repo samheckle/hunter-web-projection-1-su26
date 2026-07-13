@@ -121,9 +121,9 @@ With this in mind:
 | Week 5   | 6/29 | Structure: Introduction to Grids                                       |
 |          | 7/1  | Project #2 Critique                                                    |
 | Week 6   | 7/6  | Interaction: Introduction to the DOM                                   |
-|          | 7/8  | Interaction: Reading Discussion #3                                     |
-| Week 7   | 7/13 | Interaction: Incorporating p5.js                                       |
-|          | 7/15 | Project #3 Proposal Critique                                           |
+|          | 7/8  | Interaction: Reading Discussion #3, Introduction to Events             |
+| Week 7   | 7/13 | Interaction: Introduction to Time                                      |
+|          | 7/15 | Project #3 Proposal Critique, CSS Animations                           |
 | Week 8   | 7/20 | No class, book final 1:1                                               |
 |          | 7/22 | Project #3 Critique<br>**last day for resubmissions and extra credit** |
 

@@ -1,0 +1,39 @@
+/*
+a color palette
+burnt peach: #dd6e42
+pearl beige: #e8dab2
+blue slate: #4f6d7a
+pale sky: #c0d6df
+alabaster grey: #eaeaea
+*/
+html, body{
+	margin: 0;
+	background-color: #e8dab2;
+
+	/* add how big our page should be */
+	height: 100%;
+	width: 100%;
+}
+
+/* Select the body of the page
+Add the following properties: flex 
+Center the children in the middle of the page
+ */
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Select the id you created in index.html 
+Add the following properties:
+Make the size 50% of the webpage
+Add a background color and a border
+*/
+#container{
+	/* size is not a property, we need to set the dimsenions */
+	width: 50%;
+	height: 50%;
+	background-color: #dd6e42;
+	border: #4f6d7a solid 3px;
+}
