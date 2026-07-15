@@ -27,7 +27,7 @@ Take 10 minutes to write down 3-5 questions that would be helpful for others to 
 - What specific impressions are you trying to give your audience?
 - Do you need suggestions on a particular area of a project?
 - What are you worried the most about the project?
-- Avoid: Asking questions that do not have a clear yes/no answer
+- Avoid: Asking questions that have a clear yes/no answer
 - Avoid: "am I a good artist?" which can fall under many forms such as "is the project compelling?", "is the piece good?", "is the project working?". Instead interrogate what makes a project "good" to *you* and ask whether or not your project is achieving those goals.
 
 Some good example questions:
