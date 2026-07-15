@@ -1,0 +1,16 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.curr-time{
+	font-size: 100px;
+}
+
+#move{
+	width: 100px;
+	height: 100px;
+	background: slateblue;
+	position: absolute;
+}

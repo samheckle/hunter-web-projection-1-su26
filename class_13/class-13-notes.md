@@ -178,8 +178,7 @@ console.log(currentTime.toLocaleDateString());
 #### Getting a specific timezone time
 
 ```js
-let date = new Date()
-let currentTime = date.now()
+let currentTime = Date.now()
 
 // British English uses day-month-year order and 24-hour time without AM/PM
 console.log(currentTime.toLocaleString("en-GB", { timeZone: "UTC" }));
