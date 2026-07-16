@@ -1,0 +1,21 @@
+#clock{
+	background: lightseagreen;
+	width: 300px;
+	height: 300px;
+	transform-origin: center;
+	/*transform: rotate(45deg);*/
+}
+
+.hand{
+	/* transform needs to be a block element */
+	display: inline-block;
+	transform-origin: 0 0;
+	transform: translate(150px, 150px);
+	transform: rotate(45deg);
+}
+
+.origin{
+	display: block;
+	transform-origin: 0 0;
+	transform: translate(150px, 150px);
+}
